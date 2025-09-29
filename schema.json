@@ -1,0 +1,110 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://thestakecoin.com/#website",
+      "url": "https://thestakecoin.com/",
+      "name": "Stake Originals Guide",
+      "description": "Stake Originals 신규 게임과 Enhanced RTP 슬롯 완벽 가이드",
+      "publisher": {
+        "@id": "https://thestakecoin.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://thestakecoin.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "ko"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://thestakecoin.com/#organization",
+      "name": "Stake Originals Guide",
+      "url": "https://thestakecoin.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://thestakecoin.com/#logo",
+        "url": "https://thestakecoin.com/logo.png",
+        "width": 600,
+        "height": 60,
+        "caption": "Stake Originals Guide"
+      },
+      "sameAs": []
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://thestakecoin.com/#webpage",
+      "url": "https://thestakecoin.com/",
+      "name": "Stake Originals 2025 신규 게임 - Chicken & Packs 출시",
+      "isPartOf": {
+        "@id": "https://thestakecoin.com/#website"
+      },
+      "about": {
+        "@id": "https://thestakecoin.com/#organization"
+      },
+      "datePublished": "2025-01-01T00:00:00+09:00",
+      "dateModified": "2025-01-01T00:00:00+09:00",
+      "description": "Stake Originals의 최신 게임 Chicken과 Packs 플레이 가이드. 50,000x 멀티플라이어 전략과 Enhanced RTP 슬롯 정보",
+      "breadcrumb": {
+        "@id": "https://thestakecoin.com/#breadcrumb"
+      },
+      "inLanguage": "ko",
+      "potentialAction": {
+        "@type": "ReadAction",
+        "target": ["https://thestakecoin.com/"]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://thestakecoin.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://thestakecoin.com/"
+        }
+      ]
+    },
+    {
+      "@type": "Game",
+      "name": "Stake Chicken",
+      "description": "도로를 건너는 닭을 조작하여 최대 50,000x 멀티플라이어를 획득하는 게임",
+      "gamePlatform": "Web Browser",
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "2547"
+      }
+    },
+    {
+      "@type": "Game",
+      "name": "Stake Packs CCG",
+      "description": "240종의 유니크한 카드를 수집하는 컬렉션 카드 게임",
+      "gamePlatform": "Web Browser",
+      "applicationCategory": "Game",
+      "operatingSystem": "Any",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "ratingCount": "1823"
+      }
+    }
+  ]
+}

@@ -1,31 +1,49 @@
-# Robots.txt for Stake Registration Guide
-# Allow all web crawlers
+# Robots.txt for Stake Originals Guide
+# Last Updated: 2025-01-01
 
+# Allow all web crawlers
 User-agent: *
 Allow: /
-Disallow: 
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.pdf$
 
-# Sitemap location
-Sitemap: https://thestakecoin.com/sitemap.xml
-
-# Crawl-delay for responsible crawling
-Crawl-delay: 1
-
-# Allow search engines to index all content
+# Specific rules for major search engines
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 0
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Slurp
 Allow: /
+Crawl-delay: 1
 
 User-agent: DuckDuckBot
 Allow: /
 
 User-agent: Baiduspider
 Allow: /
+Crawl-delay: 1
 
 User-agent: YandexBot
 Allow: /
+Crawl-delay: 1
+
+# Block bad bots
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://thestakecoin.com/sitemap.xml
+
+# Host directive (for Yandex)
+Host: thestakecoin.com
