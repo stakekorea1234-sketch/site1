@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <!-- Game Strategy Main Page -->
     <url>
         <loc>https://thestakecoin.com/</loc>
         <lastmod>2025-10-10</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>daily</changefreq>
         <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://thestakecoin.com/chicken-strategy-main.jpg</image:loc>
+            <image:title>Stake Originals Chicken Game Strategy</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://thestakecoin.com/originals-account-setup.jpg</image:loc>
+            <image:title>Stake Originals Account Setup</image:title>
+        </image:image>
+        <image:image>
+            <image:loc>https://thestakecoin.com/gaming-bonus-nut123.jpg</image:loc>
+            <image:title>Gaming Bonus Code nut123</image:title>
+        </image:image>
     </url>
 </urlset>

@@ -1,6 +1,20 @@
-# Robots.txt
+# Gaming Site Crawler Rules
+# Optimized for game content indexing
+
 User-agent: *
 Allow: /
+Crawl-delay: 0.5
 
-# Sitemap location
+# Priority paths for game content
+Allow: /game-
+Allow: /originals/
+Allow: /chicken/
+Allow: /packs/
+
+# XML Sitemap
 Sitemap: https://thestakecoin.com/sitemap.xml
+
+# Game content optimization
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
