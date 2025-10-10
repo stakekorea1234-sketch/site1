@@ -1,3 +1,13 @@
+// URL 정규화 - www를 non-www로 리다이렉션
+if (window.location.hostname === 'www.thestakecoin.com') {
+  window.location.href = 'https://thestakecoin.com' + window.location.pathname + window.location.search + window.location.hash;
+}
+
+// HTTP를 HTTPS로 리다이렉션
+if (window.location.protocol === 'http:') {
+  window.location.href = 'https:' + window.location.href.substring(5);
+}
+
 // Smooth scroll and basic interactions for Stake Guide
 document.addEventListener("DOMContentLoaded", function () {
   // Update current year in footer
