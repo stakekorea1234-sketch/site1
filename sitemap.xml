@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-    <!-- Game Strategy Main Page -->
+    <!-- 스테이크 코리아 회원가입 메인 페이지 -->
     <url>
         <loc>https://thestakecoin.com/</loc>
-        <lastmod>2025-10-10</lastmod>
-        <changefreq>daily</changefreq>
+        <lastmod>2025-10-11</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
+            <image:loc>https://thestakecoin.com/gaming-bonus-nut123.jpg</image:loc>
+            <image:title>스테이크 코리아 추천인 코드 nut123 보너스</image:title>
+            <image:caption>스테이크 코리아 회원가입시 추천인 nut123 입력 화면</image:caption>
+        </image:image>
+        <image:image>
             <image:loc>https://thestakecoin.com/chicken-strategy-main.jpg</image:loc>
-            <image:title>Stake Originals Chicken Game Strategy</image:title>
+            <image:title>스테이크 코리아 Chicken 게임 전략</image:title>
         </image:image>
         <image:image>
             <image:loc>https://thestakecoin.com/originals-account-setup.jpg</image:loc>
-            <image:title>Stake Originals Account Setup</image:title>
-        </image:image>
-        <image:image>
-            <image:loc>https://thestakecoin.com/gaming-bonus-nut123.jpg</image:loc>
-            <image:title>Gaming Bonus Code nut123</image:title>
+            <image:title>스테이크 코리아 계정 생성 가입방법</image:title>
         </image:image>
     </url>
 </urlset>
