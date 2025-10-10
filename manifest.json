@@ -1,41 +1,10 @@
 {
-  "name": "Stake Originals Guide - 신규 게임 & 전략",
-  "short_name": "Stake Guide",
-  "description": "Stake Originals 최신 게임 Chicken과 Packs 완벽 가이드. Enhanced RTP 슬롯 정보와 플레이 전략",
+  "name": "스테이크 오리지널 게임 가이드 - 추천코드 nut123",
+  "short_name": "Stake Games",
+  "description": "Chicken & Packs 게임 가이드. 추천코드 nut123으로 $500 보너스",
   "start_url": "/",
-  "display": "standalone",
-  "background_color": "#0f172a",
-  "theme_color": "#6366f1",
-  "orientation": "portrait",
-  "lang": "ko",
-  "dir": "ltr",
-  "categories": ["games", "entertainment"],
-  "icons": [
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "/screenshot1.jpg",
-      "sizes": "1280x720",
-      "type": "image/jpeg"
-    },
-    {
-      "src": "/screenshot2.jpg",
-      "sizes": "1280x720",
-      "type": "image/jpeg"
-    }
-  ],
-  "related_applications": [],
-  "prefer_related_applications": false
+  "display": "browser",
+  "theme_color": "#ff4757",
+  "background_color": "#ffffff",
+  "lang": "ko"
 }
