@@ -2,7 +2,5 @@
 User-agent: *
 Allow: /
 
-
-
 # Sitemap location
 Sitemap: https://thestakecoin.com/sitemap.xml
