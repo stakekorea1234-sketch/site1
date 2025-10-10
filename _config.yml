@@ -1,0 +1,5 @@
+url: "https://thestakecoin.com"
+enforce_ssl: thestakecoin.com
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
