@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-    <!-- Homepage -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://thestakecoin.com/</loc>
-        <lastmod>2025-01-01</lastmod>
+        <lastmod>2025-10-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://thestakecoin.com/1.jpg</image:loc>
-            <image:title>Stake Chicken Game Screenshot</image:title>
-            <image:caption>Stake Originals Chicken 게임 플레이 화면</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://thestakecoin.com/2.png</image:loc>
-            <image:title>Stake Packs CCG</image:title>
-            <image:caption>Packs 카드 컬렉션 게임 화면</image:caption>
-        </image:image>
     </url>
 </urlset>
