@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
     element.title = '클릭하여 코드 복사';
     
     element.addEventListener('click', function() {
-      const codeText = 'AAKK';
+      const codeText = 'nut123';
       
       if (navigator.clipboard) {
         navigator.clipboard.writeText(codeText).then(() => {
@@ -69,9 +69,9 @@ document.addEventListener("DOMContentLoaded", function () {
     
     try {
       document.execCommand('copy');
-      alert('프로모 코드 AAKK가 복사되었습니다!');
+      alert('프로모 코드 nut123이 복사되었습니다!');
     } catch (err) {
-      alert('코드를 복사할 수 없습니다. 수동으로 입력해주세요: AAKK');
+      alert('코드를 복사할 수 없습니다. 수동으로 입력해주세요: nut123');
     }
     
     document.body.removeChild(textArea);
